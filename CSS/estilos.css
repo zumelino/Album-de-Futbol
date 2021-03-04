@@ -1,0 +1,87 @@
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+
+body {
+    /*background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);*/
+background: #FFB304;
+}
+.cabecera{
+    width: 100%;
+    margin: auto;
+}
+p{
+    font-size: 20px;
+    margin: 20px 10;
+    }
+    
+img{
+    width: 100%;
+    height: 130px;
+    margin: auto;
+}
+nav{
+    background:#FFB304 ;
+    border: solid 2px #FD8D05;
+}
+nav li a{
+    display: block;
+    padding: 0px 6px;
+    }
+nav ul li a{
+    display: block;
+    color: #241810;
+    margin: 0px;
+    font-size: 10px;
+}
+.titulo {
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+h2{
+    text-align: center;
+}
+
+.galeria img {
+    box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+    border-radius: 15px;
+}
+
+.materialbox-caption {
+    bottom: 30px;
+    right: 0;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background: #000;
+    box-shadow: 5px 5px #fff;
+    font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+}
+.contraportada img{
+    width: 100%;
+    height: auto;
+}
+
+.galeria .col {
+    margin-bottom: 20px;
+}
+footer .portada img{
+width: 100%;
+height: 800px;
+}
+
+@media screen and (max-width: 600px){
+    .materialbox-caption {
+         width: 90%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .materialbox-caption {
+         width: 70%;
+    }
+}
